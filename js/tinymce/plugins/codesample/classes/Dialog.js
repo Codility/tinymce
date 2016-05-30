@@ -88,7 +88,7 @@ define("tinymce/codesampleplugin/Dialog", [
 			editor.windowManager.open({
 				title: "Insert/Edit code sample",
 				minWidth: Math.min(DOM.getViewPort().w, 800),
-				minHeight: Math.min(DOM.getViewPort().h, 650),
+				minHeight: Math.min(DOM.getViewPort().h - 150, 650),
 				layout: 'fit',
 				body: [
 					{
